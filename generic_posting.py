@@ -47,6 +47,6 @@ while True:
             failed_in_a_row += 1
             print(f'Failed. Total posted: {str(number_of_posts)}, Total failed: {str(number_of_fails)}, Failed in a row: {str(failed_in_a_row)}')
 
-            if failed_in_a_row == 10:
+            if failed_in_a_row == 3:
                 time.sleep(3600)
                 failed_in_a_row = 0
